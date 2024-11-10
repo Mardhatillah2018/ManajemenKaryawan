@@ -1,0 +1,16 @@
+### CARA KERJA APLIKASI ###
+Aplikasi manajemen karyawan ini dirancang untuk digunakan oleh admin dalam mengelola data karyawan, termasuk data Departemen, Jabatan, Karyawan, dan Gaji. Berikut adalah penjelasan mengenai cara kerja aplikasi ini:
+
+- Halaman Awal (Login) -
+
+## 1. Pengguna pertama kali akan diarahkan ke halaman login, di mana admin perlu mengisi field email dan password untuk masuk ke sistem.
+## 2. Jika admin belum terdaftar, mereka bisa melakukan registrasi dengan mengisi form yang berisi nama, email, password, dan konfirmasi password. Proses registrasi akan gagal jika email yang dimasukkan sudah terdaftar.
+
+- Tampilan Admin setelah Login Setelah berhasil login, admin akan diarahkan ke dashboard yang berisi beberapa fitur penting -
+
+## 1. Dashboard: Menampilkan informasi ringkas berupa jumlah departemen, jabatan, dan karyawan yang terdaftar. Terdapat grafik pie chart untuk menggambarkan perbandingan jumlah karyawan per jabatan. Selain itu, dashboard juga menampilkan informasi keuangan, seperti jumlah gaji yang telah dibayarkan, jumlah bonus, dan potongan gaji dalam satu tahun terakhir.
+## 2. Data Departemen: Admin dapat menambahkan, mengedit, atau menghapus data departemen yang ada. Setiap departemen memiliki nama yang dapat disesuaikan oleh admin.
+## 3. Data Jabatan: Admin dapat menambahkan jabatan baru lengkap dengan gaji pokok yang sesuai dengan jabatan tersebut. Admin juga dapat mengedit atau menghapus jabatan yang sudah ada.
+## 4. Data Karyawan: Admin dapat menambahkan data karyawan baru dengan memasukkan informasi seperti nama, NIK, tempat dan tanggal lahir, email, nomor HP, tanggal masuk, departemen (yang sudah ditambahkan), jabatan (yang sudah ditambahkan), dan alamat. Admin dapat mengedit semua data karyawan, kecuali NIK, serta melihat detail data karyawan yang sudah terdaftar. Admin juga dapat menghapus data karyawan yang sudah ada.
+## 5. Gaji Karyawan: Admin dapat menambahkan data gaji untuk tiap karyawan yang terdaftar. Admin hanya perlu memilih nama karyawan, dan data lainnya seperti NIK, departemen, jabatan, dan gaji pokok akan terisi otomatis berdasarkan data yang sudah ada. Admin kemudian mengisi bagian tanggal gajian, bonus, dan potongan. Total gaji akan dihitung otomatis. Status penggajian akan ditandai dengan status "belum diterima" atau "sudah diterima", yang dapat diubah oleh admin dengan mengklik tombol pada kolom status. Jika ada kesalahan pengisian, admin dapat mengedit data gaji tersebut. Admin juga dapat mencetak slip gaji berdasarkan data yang sudah dimasukkan. Fitur filter tersedia untuk mempermudah admin mencari data berdasarkan tahun atau bulan tertentu, dan admin juga bisa menghapus data gaji yang sudah ditambahkan.
+## 6. Sign Out: Admin dapat keluar dari aplikasi dengan mengklik tombol sign out, yang akan mengarahkan admin kembali ke halaman login.
